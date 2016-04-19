@@ -1,0 +1,32 @@
+body {
+	background: rgba(49, 131, 171, .90);
+	color: white;
+}
+
+ul {
+	padding: 0;
+}
+
+h1 {
+	margin-top: 20%;
+}
+
+.centered-text {
+	text-align: center;
+}
+
+
+.nav-header {
+	display: inline-block;
+	margin: 2% 3%;
+}
+
+.nav-header a {
+	color: white;
+	text-decoration: none;
+}
+
+.nav-header a:hover {
+	color: darkgrey;
+	text-decoration: none;
+}	

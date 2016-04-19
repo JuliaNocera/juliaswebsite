@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="artistSite">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>What's the Weather?</title>
+	<link rel="stylesheet" href="styles.css">
+	<!-- <link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.css"> -->
+</head>
+<body>
+
+<!-- global navbar-->
+  <nav>
+    <ul class='centered-text'>
+      <li class='nav-header'><a href="#/" title="Home">Home</a></li>
+      <li class='nav-header'><a href="#painting" title="Painting">Painting</a></li>
+      <li class='nav-header'><a href="#drawing" title="Drawing">Drawing</a></li>
+      <li class='nav-header'><a href="#ceramics" title="Ceramics">Ceramics</a></li>
+      <li class='nav-header'><a href="#photos" title="Photography">Photography</a></li>
+      <li class='nav-header'><a href="#contact" title="Contact">Contact Info</a></li>
+    </ul>
+  </nav>
+
+  <div ng-view></div>
+
+<!-- load Angular scripts -->
+	<script src="lib/angular/angular.min.js"></script>
+  <script src="lib/angular-route/angular-route.min.js"></script>
+  <script src="lib/angular-resource/angular-resource.min.js"></script>
+  <script src="lib/angular-animate/angular-animate.min.js"></script>
+<!-- load app's js  -->
+  <script src="app.js"></script>
+  <script src="pages/home/website.home.controller.js"></script>
+  <script src="pages/painting/website.painting.controller.js"></script>
+  <script src="pages/drawing/website.drawing.controller.js"></script>
+  <script src="pages/ceramics/website.ceramics.controller.js"></script>
+  <script src="pages/photos/website.photos.controller.js"></script>
+  <script src="pages/contact/website.contact.controller.js"></script>
+  <script src="services/website.service.js"></script>
+
+</body>
+</html>
