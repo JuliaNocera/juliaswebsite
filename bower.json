@@ -1,8 +1,8 @@
 {
-  "name": "weather_app",
-  "description": " weather app that makes an api call with zip code to find current weather",
+  "name": "artist_app",
+  "description": " artist app to hold a record of my artwork & writings",
   "version": "1.0.0",
-  "homepage": "https://github.com/JuliaNocera/weatherVisualizer#readme",
+  "homepage": "https://github.com/JuliaNocera/juliaswebsite#readme",
   "license": "MIT",
   "dependencies": {
     "angular": "1.5.x",
