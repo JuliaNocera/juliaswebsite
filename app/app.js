@@ -32,6 +32,10 @@ angular
 	    templateUrl: 'pages/contact/website.contact.view.html',
 	    controller: 'ContactCtrl'
 	  })
+	  .when('/writing', {
+	    templateUrl: 'pages/writings/website.writing.view.html',
+	    controller: 'WritingCtrl'
+	  })
 	  .otherwise({
         redirectTo: '/'
       });
